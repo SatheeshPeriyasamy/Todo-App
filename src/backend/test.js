@@ -3,11 +3,11 @@ import pkg from 'pg';
 const { Pool } = pkg;
 
 const pool = new Pool({
-  host: 'tododb1.c7qecy2oovq9.ap-south-1.rds.amazonaws.com',
+  host: 'tododb.cyitak0a1uke.ap-south-1.rds.amazonaws.com',
   port: 5432,
   database: 'postgres',
-  user: 'admin123',
-  password: 'admin123',
+  user: 'Satheesh',
+  password: 'Satheesh123',
   ssl: {
     rejectUnauthorized: false,
   },
