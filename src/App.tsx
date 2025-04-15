@@ -13,8 +13,8 @@ function App() {
 
 
 
-const API_BASE_URL = 'http://todobackendexpressapi-env.eba-ess5haam.ap-south-1.elasticbeanstalk.com';
-
+// const API_BASE_URL = 'http://todobackendexpressapi-env.eba-ess5haam.ap-south-1.elasticbeanstalk.com';
+const API_BASE_URL = '/api';
 async function loadTasks() {
   try {
     const response = await fetch(`${API_BASE_URL}/api/tasks`);
